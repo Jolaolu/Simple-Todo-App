@@ -1,0 +1,57 @@
+body{
+    background-color: #eceff0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+body,
+input{
+    font:2em ;
+    color:#363639;
+    font-family: 'Shadows Into Light Two', cursive,  "open Sans", sans-serif;
+
+
+}
+.container{
+     align-content: center;
+}
+a{
+    text-decoration: none;
+    border-bottom: 1px dashed #363639;
+}
+.content{
+    background-color: #fff;
+    margin: 20px auto ;
+    width:100%;
+    max-width: 800px;
+    font-size: 50px ;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 0 rgb(0, 0, 0, 1);
+    box-sizing: border-box;
+}
+.content .header{
+    font-family: "Shadows Into Light Two" cursive;
+    margin: 0 0 0 0;
+}
+.items{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+} 
+.input{
+    width: 100%;
+}
+input:focus{
+    outline:none;
+}
+.submit{
+   background-color: #fff;
+   padding: 5px 10px ;
+   border: 1px solid #ddd;
+   width: 100%;
+   margin-top: 10px;
+   box-shadow: 3px 3px 0 #ddd;
+
+}
