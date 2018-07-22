@@ -26,7 +26,7 @@ $a_content = json_decode($a_file);
         <div class="main">
             <h1>To do</h1>
             <div class="content">
-                <!--<a href="#">click me</a>-->
+                <a href="#">click me</a>
                 <p>Welcome to my To do App </p>
 
                 <form class="Items" action="todo.php" method="post">
@@ -35,8 +35,14 @@ $a_content = json_decode($a_file);
                 </form>
                 <!- new todo items are Added here-->
                 <ul class="list">
-                    <?php for($i=0; $i<count($a_content); $i++);?>
-                    <li> <span class="itemsDone"><?php // echo $a_content[$i]->title; ?></span>  </li>
+                    <li> 
+                        <span class="item ">Learn to code</span> 
+                        <a href="#" class="done-button">Mark as done</a>
+                    </li>
+                      <li> 
+                        <span class="item done">Learn to Speak in public</span> 
+                    </li>
+                   
                    
                 </ul>
             </div>

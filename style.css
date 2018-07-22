@@ -24,8 +24,8 @@ a{
     background-color: #fff;
     margin: 20px auto ;
     width:100%;
-    max-width: 800px;
-    font-size: 50px ;
+    max-width: 600px;
+    font-size: 40px ;
     padding: 20px;
     border-radius: 2px;
     box-shadow: 1px 1px 0 rgb(0, 0, 0, 1);
@@ -35,10 +35,10 @@ a{
     font-family: "Shadows Into Light Two" cursive;
     margin: 0 0 0 0;
 }
-.items{
+.list{
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    list-style-type: none !important;
 } 
 .input{
     width: 100%;
@@ -54,4 +54,31 @@ input:focus{
    margin-top: 10px;
    box-shadow: 3px 3px 0 #ddd;
 
+}
+.done-button {
+   display: inline-block;
+   font-size: 0.8em;
+   background-color: #d9dfe1;
+   color: #363639;
+   padding: 3px 6px;
+   border: 0;
+   opacity: 0.4;
+   font-size: 15px;
+
+}
+.done-button:hover{
+     background: #ddd;
+     opacity: 1;
+}
+.item li,
+.item-add .input{
+    border: 0;
+    border-bottom: 1px dashed  #ccc; 
+    padding: 15px;
+}
+.item{
+    font-size: 25px;
+}
+.list .item.done{
+    text-decoration: line-through;
 }
